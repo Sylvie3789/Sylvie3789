@@ -6,6 +6,8 @@ theme = 'ananke'
 # Add these settings for better blog support
 [params]
   mainSections = ["posts"]  # This tells Hugo which sections to show on homepage
+  featured_image = "images/gohugo-default-sample-hero-image.jpg"
+  env = "production"
 
 [menu]
   [[menu.main]]
