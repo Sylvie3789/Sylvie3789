@@ -1,4 +1,19 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://sylvie3789.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Sylvie's World"
 theme = 'ananke'
+
+# Add these settings for better blog support
+[params]
+  mainSections = ["posts"]  # This tells Hugo which sections to show on homepage
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
