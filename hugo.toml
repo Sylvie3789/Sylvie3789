@@ -1,6 +1,6 @@
 baseURL = 'https://sylvie3789.github.io/'
 languageCode = 'zh-cn'  # Change to 'zh-cn' if appropriate
-title = "秋茶亭"
+title = "秋茶庭"
 theme = 'ananke'
 
 [params]
